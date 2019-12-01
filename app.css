@@ -1,0 +1,67 @@
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	text-shadow: 2;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	/*swe get subtle shadows with shades of grey*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.expbutton{
+	text-align: center;
+	border: 5px solid grey;
+/*	background:
+		filter: blur(8px);*/
+	backdrop-filter: blur(9px);
+	
+
+}
+
+.expbutton:hover{
+	background-color: darkgray;
+
+}
+
+.buttoncontainer{
+	margin: 10px;
+	transition: all 0.5s;
+
+}
+
+.buttoncontainer:hover {
+	transform: scale(1.05);
+}
+ 
+/*so what we have here is a white line with a slight dark bottom that makes it look like a shadow*/
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2); 
+}
+
+body {
+	/*background: url(https://newevolutiondesigns.com/images/freebies/cat-wallpaper-2.jpg);*/
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(starrysky2.jpg);
+/*	background: url(starrysky2.jpg).;*/
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+
+}
+
+
+html {
+	height: 100%;
+}
