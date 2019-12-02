@@ -36,6 +36,8 @@ h1 {
 
 .buttoncontainer:hover {
 	transform: scale(1.05);
+	color: white;
+
 }
  
 /*so what we have here is a white line with a slight dark bottom that makes it look like a shadow*/

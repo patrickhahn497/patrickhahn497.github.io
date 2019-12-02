@@ -1,0 +1,36 @@
+
+body {
+
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+
+h1 {
+	display: grid;
+	justify-content: center;
+
+}
+
+.block {
+
+	display: grid;
+	justify-content: start;
+/*	justify-items: center;*/
+
+}
+
+.titlecompany {
+
+}
+
+
+.date {
+
+}
+
+.location {
+
+}
