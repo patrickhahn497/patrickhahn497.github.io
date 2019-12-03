@@ -4,15 +4,25 @@ body {
 	display: grid;
 	justify-content: center;
 	justify-items: center;
+	font-family: arial;
 
 }
 
+
+li {
+	font-size: 18px;
+}
 
 h1 {
 	display: grid;
 	justify-content: center;
 
 }
+
+h2 {
+	margin-bottom: 0px;
+}
+
 
 .block {
 
