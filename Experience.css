@@ -6,6 +6,22 @@ body {
 	justify-items: center;
 	font-family: arial;
 
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url(starrysky2.jpg);
+/*	background: url(starrysky2.jpg).;*/
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+
+.container {
+	padding-left: 6em;
+	padding-right: 6em;
 }
 
 
