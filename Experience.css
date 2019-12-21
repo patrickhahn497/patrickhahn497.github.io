@@ -22,11 +22,14 @@ body {
 .container {
 	padding-left: 6em;
 	padding-right: 6em;
+	margin-bottom: 6em;
+
+
 }
 
 
 li {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 h1 {
@@ -39,21 +42,42 @@ h2 {
 	margin-bottom: 0px;
 }
 
+b {
+	color: #00bfff;
+}
+
 
 .block {
 
 	display: grid;
-	justify-content: start;
+	margin-bottom: 0px;
+/*	justify-content: start;*/
 /*	justify-items: center;*/
 
 }
 
+.blockborder {
+	border: 5px solid silver;
+}
+
 .titlecompany {
+	justify-content: center;
+	text-align: center;
+}
+
+.central {
+	justify-content: center;
+	text-align: left;
 
 }
 
 
 .date {
+	justify-content: center;
+	text-align: center;
+	margin-top: 0.1em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 
 }
 
